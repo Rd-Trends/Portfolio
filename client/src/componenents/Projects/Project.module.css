@@ -51,6 +51,27 @@
   transition: all 0.5s;
 }
 
+.builtwith {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.builtwith span {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+
+.builtwith span > *:nth-child(1) {
+  color: var(--blue);
+}
+
+.builtwith span > * {
+  padding: 0;
+  margin: 0;
+}
+
 .projectinfo h2 {
   padding: 0.5rem 0;
   font-size: 1.2rem;

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Data from "./Data";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { BsCaretRight } from "react-icons/bs";
 import Title from "../Title";
 import ImageWithOverlay from "../ImageWithOverlay/ImageWithOverlay";
 import FadeIn from "../Animation/FadeIn";
@@ -38,6 +39,7 @@ const Project = () => {
               liveURL,
               builtWith,
             } = project;
+
             return (
               <FadeIn
                 duration={0.5}
@@ -52,7 +54,16 @@ const Project = () => {
                   <div className={style.projectinfo}>
                     <h2>{name}</h2>
                     <p>{description}</p>
-                    <p>{builtWith.join("  ")}</p>
+                    <p className={style.builtwith}>
+                      {builtWith.map((tool, index) => {
+                        return (
+                          <span>
+                            <BsCaretRight />
+                            {tool}
+                          </span>
+                        );
+                      })}
+                    </p>
                     <div className={style.links}>
                       <a href={githubLink}>{<FaGithub />}</a>
                       <a href={liveURL}>{<FaExternalLinkAlt />}</a>

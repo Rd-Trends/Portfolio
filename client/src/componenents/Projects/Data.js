@@ -14,7 +14,7 @@ const Data = [
   {
     name: "EasyBank",
     description: `A Front-end mentor Landing page challenge`,
-    image: blogr,
+    image: easybank,
     githubLink: "https://github.com/Rd-Trends/easybank-landing-page",
     liveURL: "https://rd-trends.github.io/easybank-landing-page",
     builtWith: ["javascript", "HTML5", "CSS3"],
