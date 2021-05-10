@@ -18,6 +18,7 @@ function App() {
 
   return (
     <div className="App">
+      
       <Navbar toggleSidebar={toggleSidebar} isSidebarOpen={isSidebarOpen} />
       <Sidebar toggleSidebar={toggleSidebar} isSidebarOpen={isSidebarOpen} />
       <Hero />
@@ -26,6 +27,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+
     </div>
   );
 }
