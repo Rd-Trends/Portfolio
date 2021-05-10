@@ -1,0 +1,147 @@
+.wrapper {
+  padding: 2rem 1rem;
+}
+
+.formtitle p {
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.formcontainer {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.info {
+  width: 100%;
+  background-color: var(--blue);
+  color: var(--black);
+  padding: 2rem 1rem;
+  border-radius: 10px 0 0 10px;
+}
+
+.info .contact {
+  margin: 1rem 0;
+}
+
+.info .contact > * {
+  padding: 0.1rem 0;
+}
+
+.info .contact p {
+  font-size: 0.7rem;
+}
+
+.formcontainer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-grey-blue);
+  width: 100%;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.formcontainer form input,
+.formcontainer form textarea {
+  background-color: transparent;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  width: 80%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid var(--blue);
+  color: var(--primary-text-color);
+}
+
+.formcontainer form input::placeholder,
+.formcontainer form textarea::placeholder {
+  color: var(--primary-text-color);
+}
+
+.formcontainer form button {
+  background-color: transparent;
+  color: var(--primary-text-color);
+  border-radius: 50px;
+  width: 7rem;
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--blue);
+  color: var(--blue);
+}
+
+.formcontainer form button:hover,
+.formcontainer form button:active,
+.formcontainer form button:focus {
+  background-color: var(--blue);
+  color: var(--primary-text-color);
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--transparent-blue);
+  z-index: 999;
+}
+
+.modal .content {
+  width: 300px;
+  max-width: 80vw;
+  background-color: var(--dark-grey-blue);
+  color: var(--primary-text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.modal .content p {
+  padding: 0.5rem 0;
+}
+
+.modal .content button {
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  align-self: flex-end;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--primary-text-color);
+}
+
+@media screen and (min-width: 600px) {
+  .wrapper {
+    padding: 5rem 10rem;
+  }
+
+  .formcontainer {
+    flex-direction: row;
+  }
+
+  .info .contact p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .wrapper {
+    padding: 10rem 5rem;
+  }
+
+  .formtitle p {
+    font-size: small;
+  }
+}

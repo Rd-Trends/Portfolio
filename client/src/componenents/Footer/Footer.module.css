@@ -1,0 +1,41 @@
+.footer {
+  margin: 5rem 0rem 1rem;
+}
+
+.social_links {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  bottom: 0;
+  top: 0;
+  right: 2%;
+}
+
+.linkstyle {
+  margin: 0.5rem 0;
+  font-size: 3rem;
+  padding: 1rem;
+  color: var(--blue);
+}
+
+.copyright {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  color: var(--blue);
+}
+
+@media screen and (max-width: 600px) {
+  .social_links {
+    flex-direction: row;
+    position: unset;
+    height: 100%;
+    width: 100%;
+  }
+
+  .linkstyle {
+    padding: 0.2rem;
+    margin-bottom: 0rem;
+  }
+}

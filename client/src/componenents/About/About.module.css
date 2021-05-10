@@ -1,0 +1,33 @@
+.about {
+  padding: 2rem 1rem;
+}
+
+.about h1 {
+  padding: 1rem 0;
+}
+
+.about p {
+  padding: 0.5rem 0;
+  line-height: 1.5rem;
+  font-size: 0.85rem;
+}
+
+@media screen and (min-width: 600px) {
+  .about {
+    padding: 2rem 10rem;
+  }
+
+  .about p {
+    line-height: 2rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .about {
+    padding: 10rem 5rem;
+  }
+
+  .about p{
+    font-size: small;
+  }
+}

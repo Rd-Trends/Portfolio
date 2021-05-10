@@ -1,0 +1,41 @@
+.container {
+  padding: 2rem 1rem;
+}
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  margin: 0rem 0;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.skill p {
+  padding-left: 0.5rem;
+}
+
+.skill span {
+  color: var(--blue);
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    padding: 5rem 10rem;
+  }
+
+  .skill p {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .container {
+    padding:10rem 5rem;
+  }
+}
