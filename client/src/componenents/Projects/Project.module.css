@@ -49,6 +49,7 @@
   opacity: 0;
   border-radius: 5px;
   transition: all 0.5s;
+  z-index: 9;
 }
 
 .builtwith {
@@ -107,6 +108,12 @@
   border: 2px solid var(--blue);
   text-decoration: none;
   border-radius: 5px;
+}
+
+.links a{
+  margin-right: 0.3rem;
+  margin-top: 0.2rem;
+
 }
 @media screen and (min-width: 600px) {
   .container {
