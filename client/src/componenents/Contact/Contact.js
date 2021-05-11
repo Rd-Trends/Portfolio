@@ -104,6 +104,7 @@ const Contact = () => {
                 placeholder="Message"
                 value={message}
                 onChange={onMessageChange}
+                required
               ></textarea>
               <button
                 onClick={handleSubmit}

@@ -36,7 +36,7 @@ app.post("/", async (req, res) => {
   const mailOptions = {
     from: "deltamavericks@gmail.com",
     to: "dannirolands@gmail.com",
-    subject: `Message from ${email} through my portfolio contact form`,
+    subject: `Message from ${name} through my portfolio contact form`,
     html: `<p style="padding:0rem 1rem;">from <a style="text-decoration: none;" href="mailto:${email}">${email}</a></p>
     <p style="padding:0rem 1rem;">${message}</p>`,
   };
@@ -51,7 +51,7 @@ app.post("/", async (req, res) => {
   });
 });
 
-app.use(cors({ origin: true, credentials: true }));
+app.use(cors());
 
 const PORT = process.env.PORT || 4000;
 
