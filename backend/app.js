@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 //middlewares
-app.use(cors());
+// app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
@@ -50,6 +50,8 @@ app.post("/", async (req, res) => {
     return res.status(200).send({ message: "message delivered successfully" });
   });
 });
+
+app.use(cors({ origin: true, credentials: true }));
 
 const PORT = process.env.PORT || 4000;
 
