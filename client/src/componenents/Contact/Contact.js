@@ -24,7 +24,7 @@ const Contact = () => {
     e.preventDefault();
     setBtnDisabled(true);
 
-    const url = "http://localhost:4000";
+    const url = "https://danielikoyo-contactform.herokuapp.com";
 
     const emailContent = { name, email, message };
 
@@ -127,7 +127,6 @@ const Contact = () => {
           </div>
         </div>
       )}
-      ;
     </>
   );
 };

@@ -1,6 +1,6 @@
-import blogr from "../../Images/blogr1.png";
-import easybank from "../../Images/easybank1.png";
-import iptracker from "../../Images/iptracker1.png";
+import blogr from "../../Images/blogr.webp";
+import easybank from "../../Images/easybank.webp";
+import iptracker from "../../Images/iptracker.webp";
 
 const Data = [
   {
