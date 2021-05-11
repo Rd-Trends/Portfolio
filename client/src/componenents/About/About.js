@@ -12,7 +12,7 @@ const About = () => {
           love building apps that are scalable, cross browser responsive and
           aesthetic. My interest in software development dates back to a very
           long time when I was still a little boy, watching tech related movies
-          mad me love hacking (yes, I wanna be an ethical hacker). I started
+          made me love hacking (yes, I wanna be an ethical hacker). I started
           programming few years back, a conversation with my friend's made me
           realize that I could be a programmer even without going to college. So
           I started out with learning HTML and CSS using Sololearn......and

@@ -127,6 +127,10 @@
     padding: 5rem 10rem;
   }
 
+  .formtitle p{
+    margin-bottom: 1.5rem;
+  }
+
   .formcontainer {
     flex-direction: row;
   }

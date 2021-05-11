@@ -44,6 +44,8 @@ const Contact = () => {
       setBtnDisabled(false);
       return;
     }
+
+    console.log("hello world");
   };
 
   const hideModal = () => {
@@ -107,9 +109,9 @@ const Contact = () => {
                 required
               ></textarea>
               <button
-                onClick={handleSubmit}
                 type="submit"
                 className={style.submitbtn}
+                disabled={btnDisabled}
               >
                 Send
               </button>
