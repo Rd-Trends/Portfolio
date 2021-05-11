@@ -57,7 +57,7 @@ const Project = () => {
                     <p className={style.builtwith}>
                       {builtWith.map((tool, index) => {
                         return (
-                          <span>
+                          <span key={index}>
                             <BsCaretRight />
                             {tool}
                           </span>
