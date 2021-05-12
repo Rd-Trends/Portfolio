@@ -65,6 +65,15 @@ code {
   color: var(--light-blue);
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active
+{
+ -webkit-box-shadow: 0 0 0 30px var(--dark-grey-blue) inset !important;
+ -webkit-text-fill-color: var(--primary-text-color);
+}
+
 @media screen and (max-width: 600px) {
   .title-container div {
     max-width: 100%;

@@ -24,14 +24,13 @@ const Contact = () => {
     e.preventDefault();
     setBtnDisabled(true);
 
-    const url = "https://danielikoyo-contactform.herokuapp.com";
+    const url = "http://localhost:4000";
 
     const emailContent = { name, email, message };
 
-    console.log(emailContent);
-
     const response = await fetch(url, {
       method: "POST",
+
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -39,13 +38,13 @@ const Contact = () => {
       body: JSON.stringify(emailContent),
     });
 
+    const responseMessage = await response.json();
+
     if (response.status === 200) {
       setSuccess(true);
       setBtnDisabled(false);
       return;
     }
-
-    console.log("hello world");
   };
 
   const hideModal = () => {
@@ -122,7 +121,7 @@ const Contact = () => {
       {success && (
         <div className={style.modal}>
           <div className={style.content}>
-            <p>thanks {name}</p>
+            <p>Thanks {name}</p>
             <p>Your message was delivered successfully</p>
             <button disabled={btnDisabled} onClick={hideModal}>
               ok
