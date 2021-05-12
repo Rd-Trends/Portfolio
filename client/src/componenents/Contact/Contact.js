@@ -38,8 +38,6 @@ const Contact = () => {
       body: JSON.stringify(emailContent),
     });
 
-    const responseMessage = await response.json();
-
     if (response.status === 200) {
       setSuccess(true);
       setBtnDisabled(false);
