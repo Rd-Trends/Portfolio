@@ -55,7 +55,7 @@ const Skills = () => {
         <FadeIn duration={0.5} startPosition={50} endPosition={0} delay={0.5}>
           <div className={style.skill}>
             <span>{<BsCaretRight />}</span>
-            <p>GraphQL</p>
+            <p>Firebase</p>
           </div>
         </FadeIn>
         <FadeIn duration={0.5} startPosition={50} endPosition={0} delay={0.5}>

@@ -15,8 +15,8 @@ const Hero = () => {
       </FadeIn>
       <FadeIn duration={0.3} startPosition={50} endPosition={0} delay={0.6}>
         <p>
-          I'm a fullstack developer, i build responsive and scalable apps with
-          aesthetic design.
+          I am a fullstack developer, I build responsive, SEO-friendly and scalable web apps with
+          great user experience.
         </p>
       </FadeIn>
       <FadeIn duration={0.3} startPosition={50} endPosition={0} delay={0.9}>

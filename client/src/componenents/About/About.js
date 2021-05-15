@@ -9,14 +9,15 @@ const About = () => {
         <Title title={"About"} />
         <p>
           Heyo, my name is Daniel and I'm fascinated about all things tech. I
-          love building apps that are scalable, cross browser responsive and
-          aesthetic. My interest in software development dates back to a very
-          long time when I was still a little boy, watching tech related movies
-          made me love hacking (yes, I wanna be an ethical hacker). I started
-          programming few years back, a conversation with my friend's made me
-          realize that I could be a programmer even without going to college. So
-          I started out with learning HTML and CSS using Sololearn......and
-          since then; it's been an awesome journey.
+          love building apps that are scalable, SEO-friendly, cross browser
+          responsive with top notch aesthetics. My interest in software
+          development dates back to a very long time when I was still a little
+          boy, watching tech related movies. As a result, I grew so much love
+          for computer hacking (yes, I wanna be an ethical hacker). I started
+          programming few years back. A conversation with my friend made me
+          realized that I could be a programmer even without going to college.
+          Consequently, I started out with learning HTML and CSS using
+          Sololearn......and since then; it's been an awesome journey.
         </p>
         <p>
           I'm currently a 3rd year student studying mechanical engineering at
@@ -25,6 +26,14 @@ const About = () => {
           related books, academic books, religious books, sci-fi and fictional
           novels) and I watch anime too.
         </p>
+        <p>
+          I believe websites that are cross browser responnsive, SEO-friendly,
+          with great aesthetics are part of the few things that can give
+          businesses their needed high end branding. Which often is a great push
+          for their online businesses. and that's the future I am talking about!
+          My mission is to help my clients build this future for their online businesses.
+        </p>
+     
       </div>
     </FadeIn>
   );

@@ -59,7 +59,7 @@ const Contact = () => {
           <div className={style.formtitle}>
             <Title title="Connect" />
             <p>
-              I love connecting with people, and i'm open to new oppurtunties,
+              I love connecting with people, and I am open to new oppurtunties,
               if you want to easily reach out to me, you're just a click away!
             </p>
           </div>
