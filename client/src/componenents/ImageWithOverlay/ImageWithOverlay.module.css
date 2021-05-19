@@ -7,6 +7,8 @@
 .wrapper img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 .overlay {
@@ -19,4 +21,5 @@
   left: 0%;
   background-color: var(--transparent-blue);
   z-index: 2;
+  border-radius: 5px;
 }

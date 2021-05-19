@@ -8,8 +8,7 @@
 
 .about p {
   padding: 0.5rem 0;
-  line-height: 1.5rem;
-  font-size: 0.85rem;
+  line-height: 30px;
 }
 
 @media screen and (min-width: 600px) {
@@ -17,9 +16,9 @@
     padding: 2rem 10rem;
   }
 
-  .about p {
+  /* .about p {
     line-height: 2rem;
-  }
+  } */
 }
 
 @media screen and (min-width: 600px) and (max-width: 1000px) {
@@ -27,7 +26,10 @@
     padding: 10rem 5rem;
   }
 
-  .about p{
+  .about p {
     font-size: small;
+    line-height: 40px;
   }
+
+  
 }

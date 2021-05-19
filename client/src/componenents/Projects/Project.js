@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Data from "./Data";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { HiOutlineExternalLink } from "react-icons/hi";
+import { AiOutlineGithub } from "react-icons/ai";
 import { BsCaretRight } from "react-icons/bs";
 import Title from "../Title";
 import ImageWithOverlay from "../ImageWithOverlay/ImageWithOverlay";
@@ -31,14 +32,8 @@ const Project = () => {
         <Title title="Projects" />
         <div className={style.projects}>
           {data.map((project, index) => {
-            const {
-              name,
-              description,
-              image,
-              githubLink,
-              liveURL,
-              builtWith,
-            } = project;
+            const { name, description, image, githubLink, liveURL, builtWith } =
+              project;
 
             return (
               <FadeIn
@@ -65,8 +60,8 @@ const Project = () => {
                       })}
                     </p>
                     <div className={style.links}>
-                      <a href={githubLink}>{<FaGithub />}</a>
-                      <a href={liveURL}>{<FaExternalLinkAlt />}</a>
+                      <a href={githubLink}>{<AiOutlineGithub />}</a>
+                      <a href={liveURL}>{<HiOutlineExternalLink />}</a>
                     </div>
                   </div>
                 </div>

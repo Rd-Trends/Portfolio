@@ -21,7 +21,7 @@ const Data = [
   },
   {
     name: "Image Uploader",
-    description: `store images easily and then retrieve it anytime with its url`,
+    description: `Store images easily and then retrieve it anytime with it's saved url`,
     image: imageUploader,
     githubLink: "https://github.com/Rd-Trends/image-uploader",
     liveURL: " https://image-uploader-aa214.web.app",

@@ -1,13 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap");
 
 :root {
-  --primary-text-color: #E8EEFA;
-  --blue: #006EDE;
+  --primary-text-color: #e8eefa;
+  --blue: #006ede;
   --light-blue: #4da8da;
-  --dark-grey-blue: #0F2247;
+  --dark-grey-blue: #0f2247;
   --black: #182031;
   --transparent-light-blue: rgba(77, 168, 218, 0.5);
   --transparent-blue: rgba(0, 124, 199, 0.5);
@@ -17,7 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 button {
@@ -36,15 +34,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--black);
   color: var(--primary-text-color);
+  line-height: 1.3;
 }
 
-html{
+html {
   scroll-behavior: smooth;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
 
 .title-container {
@@ -66,13 +60,12 @@ code {
 }
 
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
-input:-webkit-autofill:active
-{
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
   box-shadow: 0 0 0 30px var(--dark-grey-blue) inset !important;
- -webkit-box-shadow: 0 0 0 30px var(--dark-grey-blue) inset !important;
- -webkit-text-fill-color: var(--primary-text-color);
+  -webkit-box-shadow: 0 0 0 30px var(--dark-grey-blue) inset !important;
+  -webkit-text-fill-color: var(--primary-text-color);
 }
 
 @media screen and (max-width: 600px) {
@@ -82,5 +75,9 @@ input:-webkit-autofill:active
 
   .title-container h1 {
     width: 100%;
+  }
+
+  h1 {
+    font-size: 58px;
   }
 }
