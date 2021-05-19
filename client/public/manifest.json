@@ -1,5 +1,11 @@
 {
- "name": "App",
+ "name": "Ikoyo Daniel",
+ "short_name": "Ikoyo Daniel",
+ "display": "standalone",
+ "background_color": "#0f2247" ,
+ "theme_color": "#4da8da",
+ "orientation": "any",
+ "start_url": "/",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
