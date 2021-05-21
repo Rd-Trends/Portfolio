@@ -47,6 +47,12 @@
   color: var(--primary-text-color);
 }
 
+.sidebar nav ul li a:hover,
+.sidebar nav ul li a:active,
+.sidebar nav ul li a:focus{
+  border-bottom: 0.18rem solid var(--blue);
+}
+
 .sidebar .social_links {
   flex-direction: row;
 }

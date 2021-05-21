@@ -23,6 +23,7 @@
 .copyright {
   text-align: center;
   font-size: small;
+  font-weight: bold;
   padding: 0.5rem 1rem;
   color: var(--primary-text-color);
 }

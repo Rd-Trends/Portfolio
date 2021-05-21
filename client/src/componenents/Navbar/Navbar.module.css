@@ -27,6 +27,14 @@
   color: var(--primary-text-color);
 }
 
+.navbar nav ul li a:hover,
+.navbar nav ul li a:active,
+.navbar nav ul li a:focus{
+  border-bottom: 0.18rem solid var(--blue);
+}
+
+
+
 .navbar button {
   z-index: 9999;
   color: var(--blue);

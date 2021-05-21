@@ -20,7 +20,7 @@ const Hero = () => {
         </p>
       </FadeIn>
       <FadeIn duration={0.3} startPosition={50} endPosition={0} delay={0.9}>
-        <a href="mailto:dannirolands@gmail.com">Contact Me</a>
+        <a href="mailto:dannirolands@gmail.com">Get In Touch</a>
       </FadeIn>
     </div>
   );
