@@ -25,7 +25,7 @@ const Data = [
     image: imageUploader,
     githubLink: "https://github.com/Rd-Trends/image-uploader",
     liveURL: " https://image-uploader-aa214.web.app",
-    builtWith: ["Javascript", "Firebase", "HTML5", "CSS3"],
+    builtWith: ["React JS",  "CSS3", "Firebase",],
   },
 ];
 
